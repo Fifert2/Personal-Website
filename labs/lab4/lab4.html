@@ -1,0 +1,117 @@
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>lab4</title>
+   <link rel="stylesheet" href="/labs/main.css">
+ </head>
+
+ <body>
+
+   <section class="beginning">
+      
+      <header> 
+          <h2> Lab4</h2>
+          
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="http://127.0.0.1:3000/modern_index.html?serverWindowId=4fc3a98f-d642-4518-8ccf-5c4af29c0364">Home</a></li>
+  <li><a href="../../labs/labs.html">Back to Projects</a></li>
+</ul>
+         <p>
+<!-- Automatic Slideshow Images -->
+  
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h4 class="w3-wide">Using .XML via RSS and ATOM</h4>
+    <h5>Task</h5>
+    <p class="w3-opacity"><i>In this lab I was tasked to,</i></p>
+    <p class="w3-justify">Create a news feed on my website using a .xml file. 
+      We were instructed to do this via a "rss.xml" and "atom.xml" feed. Adding 5 links 
+      to artciles of our personal interest. As well as adding some basic style elements 
+      so the content could be view easily.
+<div>
+
+
+</div><p></p>
+    <h5> Solution</h5>
+    <p class="w3-opacity"><i>My Steps:</i></p> 
+    <a href="/labs/lab4/rss.xml">RSS Feed</a>
+    <a href="atom.xml">Atom Feed</a>
+    <p class="w3-justify">As seen in the hyperlinks above I used 
+    the templates provided by "w3schools" to have an inital baseline setup
+    for my feed. I then choose 5 article links for each feed respectively. I added
+    some style elements to both the "rss" and "atom" content using 1 file called "rss.css" 
+    which is locally stored.</p>
+    <div class="w3-row w3-padding-32">
+      
+      <div class="w3-third">
+        <p>RSS Feed </p> 
+        
+        <img src="/labs/lab4/rssxmlss.png" class="w3-round w3-margin-bottom" alt="Rss.xml Style" style="width:70%">
+      </div>
+      <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Atom Feed </p> 
+        
+        <img src="/labs/lab4/atomxmlss.png" class="w3-round w3-margin-bottom" alt="Atom.xml Style" style="width:70%">
+      </div>
+    </div>
+  </div>
+
+</div><div></div>
+<p></p>
+<!-- Image of location/map -->
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+ </body>
+</html>

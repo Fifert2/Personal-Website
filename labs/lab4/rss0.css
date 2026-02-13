@@ -1,0 +1,123 @@
+
+/* Rss styling for RSS.xml */
+/* General font and background */
+rss, channel, item {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Feed title */
+channel > title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+/* Feed description */
+channel > description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Each item container */
+item {
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Item title */
+item > title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #900;
+    margin-bottom: 5px;
+}
+
+/* Item link */
+item > link {
+    font-size: 0.9em;
+    color: #0066cc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+item > link:hover {
+    text-decoration: underline;
+}
+
+/* Item description */
+item > description {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.4em;
+}
+
+/* Publication date */
+item > pubDate {
+    font-size: 0.8em;
+    color: #999;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Atom.xml file Styling Feed */
+/* General feed style */
+feed {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+/* Entry container */
+entry {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  display: block;
+}
+
+/* Title */
+entry > title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #2a5db0;
+}
+
+/* Links */
+entry > link {
+  display: block;
+  font-size: 0.9em;
+  color: #0073e6;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+/* Summary */
+entry > summary {
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+/* Feed title */
+feed > title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Feed subtitle */
+feed > subtitle {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+

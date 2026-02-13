@@ -1,0 +1,128 @@
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>About</title>
+   <link rel="stylesheet" href="labs/main.css">
+ </head>
+ <body>
+   <section class="beginning">
+      <header> 
+          <h2> About</h2>
+  
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="http://127.0.0.1:3000/index.html?serverWindowId=02cd69d8-c5f0-4724-9a35-e86e569f337d">Home</a></li>
+  <li><a href="./labs/labs.html">Projects</a></li>
+  <li><a href="/labs/lab2/islama-abdurrahimislam-resume.html">Resume</a></li> 
+  <li><a href="/labs/about.html">About</a></li>
+</ul>
+         <p>
+          <div class="w3-content" style="max-width:2000px;margin-top:46px">
+<!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/labs/lab3/codestockimage.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Projects</h3>
+      <p><b></b></p>   
+    </div>
+  
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h4 class="w3-wide">Welcome</h4>
+    <p class="w3-opacity"><i>This is the offical website of AbdurRahim Islam</i></p>
+    <p class="w3-justify">This is an ongoing project that will see continious updates and improvment. Click around the links in the naviigation bar above to check out some of my work and other ongoing initiatives.</p>
+    <div class="w3-row w3-padding-32">
+      
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h4 class="w3-wide w3-center">Contact</h4>
+    <p class="w3-opacity w3-center"><i>Find my contact info below</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> New York, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +(518)-729-7377<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: islama9@rpi.edu<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/labs/lab3/RPI.ENPAC.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Resources by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+
+ </body>
+</html>
+
+
+
+  

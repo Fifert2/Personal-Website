@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>20 IT Industries (With Importance and Career Options)</title>
+  <subtitle>Comprehensive overview of IT career paths, industry insights, and professional development opportunities</subtitle>
+  <link href="https://yourwebsite.com/labs/lab4/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://yourwebsite.com/" rel="alternate" type="text/html"/>
+  <id>urn:uuid:60a76c80-d399-11d9-b91C-0003939e0af6</id>
+  <updated>2025-09-25T16:30:00Z</updated>
+  
+  <author>
+    <name>Aaron Kim</name>
+    <email>aaronkim@ind.org</email>
+  </author>
+
+  <entry>
+    <title>What can I do with an IT degree</title>
+    <link href="https://www.uc.edu/news/articles/2023/11/what-can-i-do-with-an-it-degree.html" rel="alternate" type="text/html"/>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+    <updated>2025-09-25T16:00:00Z</updated>
+    <summary>Explore the 5 best career paths for IT majors, including cybersecurity, software development, networking, IT management, and cloud computing. Learn about job responsibilities, salary expectations, and growth opportunities in each field.</summary>
+  </entry>
+
+  <entry>
+    <title>Cybersecurity Roles Explained</title>
+    <link href="https://www.comptia.org/cybersecurity-roles-guide" rel="alternate" type="text/html"/>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6b</id>
+    <updated>2025-09-25T16:10:00Z</updated>
+    <summary>Understand the differences between Security Analysts, Engineers, Penetration Testers, and CISOs, and how each contributes to IT security. Discover the skills, certifications, and experience needed for each role.</summary>
+  </entry>
+
+  <entry>
+    <title>Breaking Into IT Careers</title>
+    <link href="https://www.coursera.org/articles/how-to-start-it-career" rel="alternate" type="text/html"/>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6c</id>
+    <updated>2025-09-25T16:20:00Z</updated>
+    <summary>Tips for starting a career in IT and cybersecurity: certifications, internships, networking, and gaining hands-on experience. Learn about entry-level positions and how to build a strong foundation for career advancement.</summary>
+  </entry>
+
+  <entry>
+    <title>Government Cybersecurity Careers</title>
+    <link href="https://www.usajobs.gov/government-cybersecurity-roles" rel="alternate" type="text/html"/>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6d</id>
+    <updated>2025-09-25T16:30:00Z</updated>
+    <summary>Explore government cybersecurity positions, including roles at NSA, DHS, and the U.S. Cyber Command. Understand eligibility requirements, security clearances, required skills, and how to apply for federal cybersecurity positions.</summary>
+  </entry>
+
+</feed>

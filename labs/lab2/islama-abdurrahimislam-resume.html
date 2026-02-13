@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Sample Resume</title>
+   <!-- Internal CSS styles are placed inside the <style> tag in the <head> section -->
+   <style>
+      /* This sets the background color and font for the whole page */
+      body {
+         font-family: "Times New Roman", Times, serif;
+         background-color: #f4f4f4;
+         margin: 0;
+         padding: 0;
+      }
+
+      /* This styles the main container for the resume */
+      .resume-container {
+         background-color: #fff;
+         max-width: 700px;
+         margin: 30px auto;
+         padding: 30px;
+         border-radius: 8px;
+         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      /* This styles the name at the top */
+      h1 {
+         color: #333;
+         margin-bottom: 5px;
+      }
+
+      /* This styles the section headings */
+      h2 {
+         color: #00539C;
+         border-bottom: 1px solid #ddd;
+         padding-bottom: 5px;
+         margin-top: 30px;
+      }
+
+      /* This styles the contact info */
+      .contact-info {
+         color: #555;
+         font-size: 1em;
+         margin-bottom: 20px;
+      }
+
+      /* This styles the list of skills */
+      ul {
+         list-style-type: disc;
+         margin-left: 20px;
+      }
+
+      /* This styles each job or education entry */
+      .item {
+         margin-bottom: 15px;
+      }
+
+      /* Flexbox for items with dates on the right */
+      .item-flex {
+         display: flex;
+         align-items: flex-start;
+         margin-bottom: 15px;
+         justify-content: space-between;
+      }
+
+      .item-content {
+         flex: 1;
+      }
+
+      .item-date {
+         min-width: 120px;
+         color: #888;
+         font-size: 0.98em;
+         margin-left: 18px;
+         text-align: left;
+         flex-shrink: 0;
+      }
+
+       
+      img {
+          float: right;
+          margin-top: auto;
+      }
+   </style>
+</head>
+
+<body>
+   <!-- Main container for the resume content -->
+   <div class="resume-container">
+      <!-- Name and contact info -->
+       <picture>
+         <source srcset="headshot.jpeg">
+         <img src="headshot.jpeg" alt="Pircture of Student"
+        width="150" height="170"> 
+         
+      </picture>
+      <h1>AbdurRahim Islam</h1>
+      
+      <div class="contact-info">
+         Email: islama9@rpi.edu | Phone: (518) 729-7377 | City: Albany, State: NY
+         
+      </div>
+         Linkedin: <a href="https://www.linkedin.com/school/rensselaer-polytechnic-institute/" target="_blank">ViewMyLinkedinHere</a>
+      
+        
+      <!-- Vision Statement section -->
+      <h2>Vision Statement</h2>
+      <p>
+         Current student at RPI who has an interest 
+         in Cybersecurity and wants to asses cyber 
+         secuirty riks and network vaunerabilities.
+      </p>
+
+      <!-- Education section -->
+      <h2>Education</h2>
+      <div class="item-flex">
+         <div class="item-content">
+            <strong>The Albany Academy</strong><br>
+            High School Diploma (GED)
+         </div>
+            
+         <div class="item-date">2010 - 2025</div>
+      </div>
+            <strong>Rensselaer Polytechnic Institute</strong><br>
+            Bachelors in Information Technology and web sciences
+            
+         
+      <!-- Skills section -->
+      <h2>Skills</h2>
+      <ul>
+         <li>Learning HTML &amp; CSS</li>
+         <li>Basic Python/C++</li>
+         <li>Communication &amp; Project Managment Skills </li>
+         <li> Media Production (Website I Designed):<a href="https://ucitp.org/" target="_blank">ucitp.org</a>
+         (App I Designed) <a href="https://www.jotform.com/app/251487186016157" target="_blank">TWJ</a></li>
+      </ul>
+   
+      <!-- Experience section -->
+      <h2>Experience</h2>
+      <div class="item-flex">
+         <div class="item-content">
+            <strong> Associate at Universal Concepts ITP (Associate)</strong><br>
+             <li>Universal Concepts ITP. is a non for profit 501c3 out of the state of NY, 
+               they work with underprivileged communities in the inner city of Albany and 
+               specialize in life skills and youth development. 
+               They work on teaching the youth life skills in Albany County’s 
+               summer enrichment program. 
+             <li>They run a construction class based out of Schenectady NY, 
+               that allows students of the class to learn Sheetrock, tapping, 
+               and painting, while allowing them to get paid on the job while 
+               earning their osha 10 certification, and working towards refining 
+               their skills and securing employment with established contractors. 
+               I was involved with being on the work site and gutting buildings 
+               with the team. Interior demolition, which involves tearing down 
+               walls or clearing and cleaning out houses or facilities of already 
+               destroyed debris I worked with the demolition crew and working 
+               the truck and loading the debris onto and off the truck.
+               <li> Social Media Manager (2022-Current) </li>
+               I transitioned from the demolition crew to working all of there social media
+               operations. I create and manage their website and produce all video content they publish.
+      
+               
+               </li>
+</li>
+
+</li>
+             <div> </div>
+            <strong> Albany Academy Summer Camp Counsler </strong>
+             <div></div>
+             <li>The Albany Academy runs a summer camp for students and non 
+               students K-8, They have two programs, Leap and little Leap. 
+               I worked Leap which is for kids who are 12-14 years of age. 
+               As Counslers we were responsible for classes such as swimming,
+               Science Camp, and language camp etc.   </li>
+         </div>
+         <div class="item-date">Jun 2020 - Sep 2025</div>
+      </div>
+
+      <!-- Activities section -->
+      <h2>Activities</h2>
+      <ul>
+         <li>Clubs: Boxing, Rugby, ASA, NSBE</li>
+         <li>Part Time Game Developer</li>
+      </ul>
+   </div>
+</body>
+
+</html>

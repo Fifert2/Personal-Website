@@ -1,0 +1,49 @@
+{
+   "menuItem": [
+      {
+         "title": "lab1",
+         "subject": "Creating Azure Servers",
+         "link": "lab1/lab1_html_modern.html"
+      },
+      {
+         "title": "lab2",
+         "subject": "HTML Resume Development",
+         "link": "lab2/lab2_html_modern.html"
+      },
+      { 
+         "title": "lab3",
+         "subject": "Personal Website Creation",
+         "link": "lab3/lab3_html_modern.html"
+      },
+      {
+         "title": "lab4",
+         "subject": "RSS & Atom Feeds",
+         "link": "lab4/lab4_html_modern.html"
+      },
+      {
+         "title": "lab5",
+         "subject": "JavaScript Forms",
+         "link": "lab5/lab5_html_modern.html"
+      },
+      {
+         "title": "lab6",
+         "subject": "Intro to jQuery",
+         "link": "lab6/lab6_html_modern.html"
+      },
+      {
+         "title": "lab8",
+         "subject": "JavaScript, JSON and AJAX",
+         "link": "lab8/lab8_html_modern.html"
+      },
+      {
+         "title": "lab9",
+         "subject": "Databases and PHP",
+         "link": "lab9/lab9_html_modern.html"
+      },
+      {
+         "title": "lab10",
+         "subject": "Making Our Servers Public",
+         "link": "lab10/lab10_html_modern.html"
+      }
+   ]
+}

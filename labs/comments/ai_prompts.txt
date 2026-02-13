@@ -1,0 +1,79 @@
+Course: ITWS 1100
+Assignment: Quiz 3 – Comment System
+Student: AbdurRahim Islam
+Date: 12/02/2025
+File: AI_PROMPTS.txt
+Purpose: Document how AI was used in the completion of Quiz 3 (as required)
+
+1. Prompt #1
+
+My prompt to AI:
+
+“I am doing my Quiz 3 for my IT class… based on the instructions I need your help in order to add comments to my website that follow the guidelines… What is the best way to go about this?”
+(Uplaoded Relevant files)
+Summary of AI Response Used:
+
+Suggested general plan for creating a PHP-based comment system
+Recommended using prepared statements and server-side validation
+Recommended linking to a separate comments.php page instead of modifying the entire homepage
+
+How I Modified / Used It:
+I did NOT convert my whole homepage into PHP (the original suggestion was too complex)
+I used only the part suggesting a separate page for comments
+I wrote my own HTML link on the homepage
+I wrote all the form labels and layout myself based on my current websites css styling
+
+2. Prompt #2
+
+My prompt:
+
+The quiz says I should build on previous labs like Lab 3, 3B, 8, and 9… When you assist in making the table and corresponding SQL and PHP use the same coding logic and structure as labs 8 and 9.”
+
+Summary of AI Response Used:
+
+AI generated SQL fromat for the siteComments table
+AI produced a beginner-level comments.php skeleton modeled on Lab 9 patterns
+AI included jQuery validation similar to Lab 8
+AI kept things simple and avoided advanced PHP features
+
+How I Modified / Used It:
+I changed field names to match exactly what the quiz required
+I changed validation messages to my own wording
+I added my own CSS classes from my Lab 8 stylesheet
+I wrote additional comments to explain each section in my own words
+I removed code I didn’t need (navbar pieces, unused classes)
+
+
+4. Prompt #3
+
+My prompt:
+
+“I can’t get to the comments.php, I get an HTTP 500 error… How should I go about troubleshooting this?”
+
+Summary of AI Response Used:
+
+AI suggested adding temporary error-reporting lines to locate the bug
+Provided a simple comments-test.php file to isolate server issues
+Helped me verify file path vs server routing
+Helped me confirm whether MariaDB connection was working
+
+How I Modified / Used It:
+
+Added the error-display code exactly as instructed but removed it after debugging
+Created my own simplified test file (now removed)
+Once fixed, I applied the debugging approach to my own final code
+I wrote my own cleanup comments in the final version
+
+
+I certify that:
+
+All AI-generated code was reviewed and modified by me
+
+I understand how all included PHP, SQL, and JavaScript works
+AI was used only as allowed by the  Quiz 3 instructions
+All AI-assisted code sections in my project files are marked with comments such as:
+// AI-ASSISTED (ChatGPT): Initial structure, modified by me.
+
+Signature:
+AbdurRahim Islam
+Date: 12/02/2025

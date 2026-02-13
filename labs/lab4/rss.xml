@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="rss.css"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AbdurRahim Islam - Cybersecurity &amp; IT News</title>
+    <link>https://yourwebsite.com/labs/lab4/rss.xml</link>
+    <description>Curated articles about cybersecurity careers, IT industry trends, and professional development in technology</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Sep 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yourwebsite.com/labs/lab4/rss.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cybersecurity Job Market in 2025</title>
+      <link>https://www.cisa.gov/cybersecurity-job-market-2025</link>
+      <description>The cybersecurity job market is growing rapidly, with demand outpacing supply. Learn about current trends, skills in demand, and career opportunities for IT security professionals.</description>
+      <pubDate>Thu, 25 Sep 2025 12:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.cisa.gov/cybersecurity-job-market-2025</guid>
+    </item>
+    
+    <item>
+      <title>Understanding Cybersecurity Roles: Analyst, Engineer, and More</title>
+      <link>https://www.comptia.org/cybersecurity-roles-guide</link>
+      <description>Explore the different roles in cybersecurity, including Security Analyst, Penetration Tester, Security Engineer, and CISO. Understand their responsibilities, required skills, and career paths.</description>
+      <pubDate>Wed, 24 Sep 2025 09:30:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.comptia.org/cybersecurity-roles-guide</guid>
+    </item>
+    
+    <item>
+      <title>Breaking Into IT and Cybersecurity Careers</title>
+      <link>https://www.coursera.org/articles/how-to-start-it-career</link>
+      <description>Discover how to start a career in IT and cybersecurity. Tips on certifications, hands-on experience, internships, and networking to enter the technology job market successfully.</description>
+      <pubDate>Tue, 23 Sep 2025 14:15:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.coursera.org/articles/how-to-start-it-career</guid>
+    </item>
+    
+    <item>
+      <title>Top Employers in the Cybersecurity Industry</title>
+      <link>https://www.forbes.com/best-employers-cybersecurity</link>
+      <description>Learn which companies lead the cybersecurity industry in employee satisfaction, innovation, and career growth opportunities. Highlights include tech giants, startups, and consulting firms.</description>
+      <pubDate>Mon, 22 Sep 2025 11:45:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.forbes.com/best-employers-cybersecurity</guid>
+    </item>
+    
+    <item>
+      <title>Highest Paying Cybersecurity Jobs in 2025</title>
+      <link>https://www.payscale.com/research/US/Job=Cybersecurity_Engineer/Salary</link>
+      <description>From Chief Information Security Officer (CISO) to Penetration Tester, discover the top-paying roles in cybersecurity and what skills and certifications can maximize earning potential.</description>
+      <pubDate>Sat, 20 Sep 2025 08:30:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.payscale.com/research/US/Job=Cybersecurity_Engineer/Salary</guid>
+    </item>
+  </channel>
+</rss>
